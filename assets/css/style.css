@@ -1393,7 +1393,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#contact .php-email-form .validate {
+#contact .EmailForm .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1401,7 +1401,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .php-email-form .error-message {
+#contact .EmailForm .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1410,11 +1410,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br + br {
+#contact .EmailForm .error-message br + br {
   margin-top: 25px;
 }
 
-#contact .php-email-form .sent-message {
+#contact .EmailForm .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1423,14 +1423,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
 }
 
-#contact .php-email-form .loading {
+#contact .EmailForm .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-#contact .php-email-form .loading:before {
+#contact .EmailForm .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1443,25 +1443,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .EmailForm #contact .EmailForm textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .EmailForm input::focus, #contact .EmailForm textarea::focus {
   background-color: #f82249;
 }
 
-#contact .php-email-form input {
+#contact .EmailForm input {
   padding: 20px 15px;
 }
 
-#contact .php-email-form textarea {
+#contact .EmailForm textarea {
   padding: 12px 15px;
 }
 
-#contact .php-email-form button[type="submit"] {
+#contact .EmailForm button[type="submit"] {
   background: #f82249;
   border: 0;
   padding: 10px 40px;
@@ -1471,7 +1471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#contact .php-email-form button[type="submit"]:hover {
+#contact .EmailForm button[type="submit"]:hover {
   background: #e0072f;
 }
 
